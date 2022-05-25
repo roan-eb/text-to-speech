@@ -72,6 +72,7 @@ actionSpeech = (speechText) => {
       alert("Valid speech commands: black,  reset, next page");
       break;
     default:
-      // do nothing yet
+      window.open("https://www.google.com/search?q=" + speechText);
+    break;
   }
 }
